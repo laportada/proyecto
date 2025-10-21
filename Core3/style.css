@@ -1,0 +1,40 @@
+
+h1 {
+  text-align: center;
+  padding: 15px 0;
+}
+.fila{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 20px;
+  
+}
+.fila-amarilla{
+     background-color: #e9c914; 
+}
+.fila-azul{
+    background-color: rgb(18, 160, 255);
+}
+.fila-roja{
+    background-color: rgb(225, 92, 75);
+}
+.imagen {
+  
+  padding: 10px;
+  margin: 10px;
+  width: 150px; 
+  height: 150px; 
+}
+.imagen img{ 
+  width:180px;
+  height:180px ;
+  object-fit: cover;
+}
+  footer {
+  text-align: center;
+  background-color: #52e057;
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: auto;
+}
